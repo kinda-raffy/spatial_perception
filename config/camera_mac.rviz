@@ -6,7 +6,7 @@ Panels:
       Expanded:
         - /Object Frames1/Frames1
         - /Cameras1/Mono Camera1
-        - /VSLAM1/ORB Cloud1
+        - /VSLAM1/Tracking ORB Cloud1
         - /Mapping1/3D Map1/Namespaces1
       Splitter Ratio: 0.5708582997322083
     Tree Height: 1766
@@ -166,7 +166,7 @@ Visualization Manager:
           Position Transformer: XYZ
           Queue Size: 10
           Selectable: true
-          Size (Pixels): 7
+          Size (Pixels): 14
           Size (m): 0.009999999776482582
           Style: Points
           Topic: /orb_slam3/tracked_points
@@ -194,7 +194,7 @@ Visualization Manager:
           Position Transformer: XYZ
           Queue Size: 10
           Selectable: true
-          Size (Pixels): 3
+          Size (Pixels): 6
           Size (m): 0.004999999888241291
           Style: Points
           Topic: /orb_slam3/all_points
@@ -313,26 +313,25 @@ Visualization Manager:
   Value: true
   Views:
     Current:
-      Class: rviz/XYOrbit
-      Distance: 1.4502421617507935
+      Class: rviz/FrameAligned
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
-      Field of View: 0.5
-      Focal Point:
-        X: -1.709200382232666
-        Y: -2.1337361335754395
-        Z: 1.8455766621627845e-06
-      Focal Shape Fixed Size: true
-      Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
+      Lock Camera: true
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: -0.010203552432358265
+      Pitch: -1.570796251296997
+      Point towards: +z axis
+      Position:
+        X: 1.7764025415090146e-06
+        Y: -0.5
+        Z: -3.5999858379364014
+      Roll: 1.5549999475479126
       Target Frame: camera
-      Yaw: 4
+      Yaw: 0
     Saved:
       - Class: rviz/FrameAligned
         Enable Stereo Rendering:
